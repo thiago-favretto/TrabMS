@@ -26,9 +26,39 @@ ENTITY_SPEED = {
     'Level1Bg6': 6,
     'Player1': 3,
     'Player2': 3,
-    'Enemy1': 3,
-    'Enemy2': 2
+    'Player1Shot': 2,
+    'Player2Shot': 2,
+    'Enemy1': 2,
+    'Enemy2': 1,
+    'Enemy1Shot': 4,
+    'Enemy2Shot': 3,
 }
+ENTITY_HEALTH = {
+    'Level1Bg0': 999,
+    'Level1Bg1': 999,
+    'Level1Bg2': 999,
+    'Level1Bg3': 999,
+    'Level1Bg4': 999,
+    'Level1Bg5': 999,
+    'Level1Bg6': 999,
+    'Player1': 300,
+    'Player2': 300,
+    'Player1Shot': 1,
+    'Player2Shot': 1,
+    'Enemy1': 50,
+    'Enemy2': 60,
+    'Enemy1Shot': 1,
+    'Enemy2Shot': 1,
+}
+ENTITY_SHOT_DELAY = {
+    'Player1': 15,
+    'Player2': 20,
+    'Enemy1': 100,
+    'Enemy2': 200,
+}
+
+
+
 
 SPAWN_TIME = 4000
 
